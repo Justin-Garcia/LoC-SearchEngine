@@ -1,0 +1,38 @@
+* {
+  font-family: "Newsreader", sans-serif;
+  background-color: #acb0bd;
+  color: black;
+  margin: 10px;
+  padding: 10px;
+}
+
+body {
+  display: block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: #d9dbf1;
+  width: 100vh;
+  border: ;
+}
+
+h1 {
+    background-color: #d9dbf1;
+}
+
+.userInput {
+  background-color: white;
+  position: relative;
+  width: 80%;
+  border: none;
+}
+
+
+#submit-btn {
+  background-color: #416165;
+  color: white;
+  border-radius: 5px;
+  width: 80%;
+}

@@ -1,14 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/style.css">
-</head>
-<body>
-    
-    
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Eczar&family=Newsreader:opsz@6..72&family=Noto+Color+Emoji&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Library of Congress Search Engine</h1>
+    <input type="text" placeholder="Search!" class="userInput" />
+    <br />
+    <!-- TODO: Create a Dropdown Menu -->
+    <select name="File type" id="drpdwn" class="userInput">
+        <option value="">Everything</option>
+        <option value="">Audio Recordings</option>
+        <option value="">Book/Printed Material</option>
+        <option value="">Films, Videos</option>
+        <option value="">Legislation</option>
+        <option value="">Manuscripts, Mixed Material</option>
+        <option value="">Maps</option>
+        <option value="">Noted Music</option>
+        <option value="">Newspapers</option>
+        <option value="">Periodicals</option>
+        <option value="">Personal Narratives</option>
+        <option value="">Photos, Prints, Drawings</option>
+        <option value="">Software, E-Resources</option>
+        <option value="">Web Archives</option>
+        <option value="">Web Pages</option>
+        <option value="">3D Objects</option>
+    </select>
+    <br />
+    <input id="submit-btn" type="submit" value="Click Me!" />
+
     <script src="./javascript/scripts.js"></script>
-</body>
+  </body>
 </html>
